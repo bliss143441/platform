@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "49a5efb6ec019308bef45d7f29681f0b",
-    "content-hash": "ca544c1ab449c9a5c5ab7cdcd5f61a15",
+    "hash": "78dc1bb057d50de2bd2d56fed7746412",
+    "content-hash": "421f3b5c6d1c020462f6a5aaf7ccbb66",
     "packages": [
         {
             "name": "abraham/twitteroauth",
@@ -4911,6 +4911,41 @@
             "time": "2014-12-04 19:17:59"
         },
         {
+            "name": "ushahidi/kohana-validation",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ushahidi/kohana-validation.git",
+                "reference": "5926625e0f40c398ecc575c29acb20713b8888c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ushahidi/kohana-validation/zipball/5926625e0f40c398ecc575c29acb20713b8888c9",
+                "reference": "5926625e0f40c398ecc575c29acb20713b8888c9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kohana\\Validation\\": "src/"
+                }
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Robbie Mackay",
+                    "email": "robbie@ushahidi.com"
+                }
+            ],
+            "description": "Legacy Kohana Validation Classes extract into a PSR4 package",
+            "support": {
+                "source": "https://github.com/ushahidi/kohana-validation/tree/master"
+            },
+            "time": "2017-06-08 03:17:42"
+        },
+        {
             "name": "ushahidi/shadowhand-email",
             "version": "dev-master",
             "source": {
@@ -7775,6 +7810,7 @@
         "league/event": 20,
         "beheh/flaps": 20,
         "doctrine/cache": 20,
+        "ushahidi/kohana-validation": 20,
         "heroku/heroku-buildpack-php": 20,
         "satooshi/php-coveralls": 20
     },

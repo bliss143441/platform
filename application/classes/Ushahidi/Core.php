@@ -50,8 +50,6 @@ abstract class Ushahidi_Core {
 			return Kohana::$config->load('site.intercomAppToken');
 		});
 
-		$di->set('tool.validation', $di->lazyNew('Ushahidi_ValidationEngine'));
-
 		$di->set('tool.mailer', $di->lazyNew('Ushahidi_Mailer', [
 			'siteConfig' => $di->lazyGet('site.config'),
 			'clientUrl' => $di->lazyGet('clienturl')
