@@ -25,7 +25,7 @@
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 return array(
-	'base_url'    => '/',
+	'base_url'    => '/platform/httpdocs/',
 	'index_file'  => FALSE,
 	'charset'     => 'utf-8',
 	'errors'      => TRUE,
