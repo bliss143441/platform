@@ -26,7 +26,7 @@
  */
 return array(
 	'base_url'    => '/platform/httpdocs/',
-	'index_file'  => FALSE,
+	'index_file'  => 'index.php',
 	'charset'     => 'utf-8',
 	'errors'      => TRUE,
 	'profile'     => FALSE,
